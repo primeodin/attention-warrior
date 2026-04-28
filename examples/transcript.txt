@@ -1,0 +1,3 @@
+$ ./scripts/smoke.sh
+attention-warrior: smoke test for the 2021 retrospective chapter
+The rune holds.
