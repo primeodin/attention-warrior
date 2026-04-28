@@ -1,0 +1,12 @@
+[project]
+name = "attention-warrior"
+version = "2021.1.0"
+description = "educational Transformer implementation from first principles"
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "MIT"}
+authors = [{name = "primeodin", email = "primeodin@runeking.dev"}]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
