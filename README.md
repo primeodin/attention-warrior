@@ -20,8 +20,36 @@ If you fork this, keep the honesty file. If you improve the code, say what you c
 
 ## Try it
 
-See the source file in this repository and run the small command shown below. The output is intentionally modest: a number, a trace, a decision, a diagram, or a line of text. Small output is good. Small output lets the mind inspect the machinery.
+No extra packages. Python 3.8+ from the repo root:
 
+```bash
+python3 main.py
+```
+
+Expected stdout (deterministic; the last line is the tiny 3-d head in `attention_warrior/core.py`):
+
+```
+attention-warrior :: attention
+attention-000 energy=13.16074 peak=5.06112
+attention-001 energy=9.43604 peak=4.86551
+attention-002 energy=8.13386 peak=4.58891
+attention-003 energy=6.07834 peak=4.29216
+attention-004 energy=5.32723 peak=4.09066
+attention-005 energy=2.78238 peak=2.83186
+attention-006 energy=2.58436 peak=2.82135
+attention-007 energy=0.63431 peak=1.61772
+([0.8320565498522556, 0.7008402876896522], [0.2991597123103478, 0.1679434501477444, 0.5328968375419079])
+```
+
+That last line is `(output_vector, softmax_weights)` over three keys and one query. Change a key in `main.py` and watch the weights move. That is the lesson.
+
+Full smoke (run + unit tests):
+
+```bash
+./scripts/smoke.sh
+```
+
+Success ends with `The rune holds.` If it does not, the console is telling you the truth.
 
 ## Built-out archive contents
 
