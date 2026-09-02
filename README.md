@@ -51,6 +51,24 @@ Full smoke (run + unit tests):
 
 Success ends with `The rune holds.` If it does not, the console is telling you the truth.
 
+## Daily builds series
+
+Tiny, tested teaching repos — starter → mid. Ship one, read it, then climb:
+
+| Lane | Repo | Why open it |
+| --- | --- | --- |
+| Starter | [first-commit-ai](https://github.com/primeodin/first-commit-ai) | Mock-first chat CLI + pytest |
+| Attention mid (this) | [attention-warrior](https://github.com/primeodin/attention-warrior) | Transformer attention you can hold in one hand |
+| Shop skills | [mister-jay](https://github.com/primeodin/mister-jay) | Interactive DIY drills (vehicle, electrical, plumbing) — [live](https://primeodin.github.io/mister-jay/) |
+| Literacy (Sinhala) | [jay-ai-sinhala](https://github.com/primeodin/jay-ai-sinhala) | Friends 70+ learning GitHub + AI — [live](https://primeodin.github.io/jay-ai-sinhala/) |
+| Systems DIY | [camera-selector](https://github.com/primeodin/camera-selector) | NVR/Frigate camera planning — [live](https://primeodin.github.io/camera-selector/) |
+
+Coming next on the weekday cadence: RAG starter → tool agent → prompt lab → embeddings → vision → memory → shop-skill explainer.
+
+Want a small PR? Open [good first issues](https://github.com/primeodin/attention-warrior/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) (examples walkthrough, ASCII Q/K/V diagram).
+
+Profile forge: [github.com/primeodin](https://github.com/primeodin)
+
 ## Built-out archive contents
 
 This public-ready build-out adds `docs/CHAPTER.md`, `examples/transcript.txt`, and `scripts/smoke.sh` so the chapter is not only literary but inspectable. The smoke script is intentionally plain: it compiles or runs the small artifact, prints a short trace, and refuses to hide failure. That is the old bargain. If the rune breaks, the console should say so without ceremony.
