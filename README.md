@@ -45,6 +45,8 @@ That last line is `(output_vector, softmax_weights)` over three keys and one que
 
 Want the same numbers on paper first? Read [`examples/toy-attention-walkthrough.md`](examples/toy-attention-walkthrough.md) — hand-worked dots, softmax, and weighted values that match this stdout.
 
+Prefer a one-screen map before the arithmetic? See [`docs/attention-diagram.md`](docs/attention-diagram.md) (ASCII + mermaid of query → keys → softmax → values).
+
 Full smoke (run + unit tests):
 
 ```bash
@@ -57,7 +59,7 @@ Success ends with `The rune holds.` If it does not, the console is telling you t
 
 Scoped tickets live in [Issues](https://github.com/primeodin/attention-warrior/issues). Open contribution ideas:
 
-- **#3** — ASCII Q/K/V diagram in `docs/` (still open)
+- Shipped: [`docs/attention-diagram.md`](docs/attention-diagram.md) (was #3)
 - Shipped: [`examples/toy-attention-walkthrough.md`](examples/toy-attention-walkthrough.md) (was #2)
 
 New to pull requests? Start at [first-commit-ai](https://github.com/primeodin/first-commit-ai), then come back.
