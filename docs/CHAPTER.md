@@ -24,3 +24,7 @@ Tiny Transformer attention implementation and synthetic battle logs. The small m
 ## Rune invariant
 
 The chapter invariant is: **the example must be small enough that a curious reader can hold the whole machine in mind.**
+
+## Worked toy
+
+Hand-worked Q/K/V numbers that match `main.py`: [`examples/toy-attention-walkthrough.md`](../examples/toy-attention-walkthrough.md).

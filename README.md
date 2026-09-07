@@ -43,6 +43,8 @@ attention-007 energy=0.63431 peak=1.61772
 
 That last line is `(output_vector, softmax_weights)` over three keys and one query. Change a key in `main.py` and watch the weights move. That is the lesson.
 
+Want the same numbers on paper first? Read [`examples/toy-attention-walkthrough.md`](examples/toy-attention-walkthrough.md) — hand-worked dots, softmax, and weighted values that match this stdout.
+
 Full smoke (run + unit tests):
 
 ```bash
@@ -55,8 +57,8 @@ Success ends with `The rune holds.` If it does not, the console is telling you t
 
 Scoped tickets live in [Issues](https://github.com/primeodin/attention-warrior/issues). Open contribution ideas:
 
-- **#2** — second worked attention walkthrough under `examples/`
-- **#3** — ASCII Q/K/V diagram in `docs/`
+- **#3** — ASCII Q/K/V diagram in `docs/` (still open)
+- Shipped: [`examples/toy-attention-walkthrough.md`](examples/toy-attention-walkthrough.md) (was #2)
 
 New to pull requests? Start at [first-commit-ai](https://github.com/primeodin/first-commit-ai), then come back.
 
