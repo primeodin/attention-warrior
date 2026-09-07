@@ -28,3 +28,5 @@ The chapter invariant is: **the example must be small enough that a curious read
 ## Worked toy
 
 Hand-worked Q/K/V numbers that match `main.py`: [`examples/toy-attention-walkthrough.md`](../examples/toy-attention-walkthrough.md).
+
+One-screen ASCII + mermaid map of the same head: [`docs/attention-diagram.md`](attention-diagram.md).
