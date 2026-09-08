@@ -57,10 +57,15 @@ Success ends with `The rune holds.` If it does not, the console is telling you t
 
 ## Help / good first issues
 
-Scoped tickets live in [Issues](https://github.com/primeodin/attention-warrior/issues). Open contribution ideas:
+See [CONTRIBUTING.md](CONTRIBUTING.md) for the local loop. Scoped tickets live in [Issues](https://github.com/primeodin/attention-warrior/issues).
 
-- Shipped: [`docs/attention-diagram.md`](docs/attention-diagram.md) (was #3)
-- Shipped: [`examples/toy-attention-walkthrough.md`](examples/toy-attention-walkthrough.md) (was #2)
+**Open (good first issue):**
+- [#4](https://github.com/primeodin/attention-warrior/issues/4) — `examples/scale-factor-walkthrough.md` (why divide by √d)
+- [#5](https://github.com/primeodin/attention-warrior/issues/5) — pytest fixture for `AttentionHead.attend` (weights sum ~1)
+
+**Shipped:**
+- [`docs/attention-diagram.md`](docs/attention-diagram.md) (was #3)
+- [`examples/toy-attention-walkthrough.md`](examples/toy-attention-walkthrough.md) (was #2)
 
 New to pull requests? Start at [first-commit-ai](https://github.com/primeodin/first-commit-ai), then come back.
 
