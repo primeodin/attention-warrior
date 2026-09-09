@@ -45,6 +45,8 @@ That last line is `(output_vector, softmax_weights)` over three keys and one que
 
 Want the same numbers on paper first? Read [`examples/toy-attention-walkthrough.md`](examples/toy-attention-walkthrough.md) — hand-worked dots, softmax, and weighted values that match this stdout.
 
+Why `/ √d` before softmax? [`examples/scale-factor-walkthrough.md`](examples/scale-factor-walkthrough.md) — raw vs scaled side-by-side on the same toy vectors.
+
 Prefer a one-screen map before the arithmetic? See [`docs/attention-diagram.md`](docs/attention-diagram.md) (ASCII + mermaid of query → keys → softmax → values).
 
 Full smoke (run + unit tests):
@@ -60,10 +62,10 @@ Success ends with `The rune holds.` If it does not, the console is telling you t
 See [CONTRIBUTING.md](CONTRIBUTING.md) for the local loop. Scoped tickets live in [Issues](https://github.com/primeodin/attention-warrior/issues).
 
 **Open (good first issue):**
-- [#4](https://github.com/primeodin/attention-warrior/issues/4) — `examples/scale-factor-walkthrough.md` (why divide by √d)
 - [#5](https://github.com/primeodin/attention-warrior/issues/5) — pytest fixture for `AttentionHead.attend` (weights sum ~1)
 
 **Shipped:**
+- [`examples/scale-factor-walkthrough.md`](examples/scale-factor-walkthrough.md) (was #4)
 - [`docs/attention-diagram.md`](docs/attention-diagram.md) (was #3)
 - [`examples/toy-attention-walkthrough.md`](examples/toy-attention-walkthrough.md) (was #2)
 
