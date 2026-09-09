@@ -63,6 +63,8 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the local loop. Scoped tickets live i
 
 **Open (good first issue):**
 - [#5](https://github.com/primeodin/attention-warrior/issues/5) — pytest fixture for `AttentionHead.attend` (weights sum ~1)
+- [#6](https://github.com/primeodin/attention-warrior/issues/6) — `docs/softmax-stability.md` (why subtract max before exp)
+- [#7](https://github.com/primeodin/attention-warrior/issues/7) — `--attend` CLI demo (readable Q/K/V weights table)
 
 **Shipped:**
 - [`examples/scale-factor-walkthrough.md`](examples/scale-factor-walkthrough.md) (was #4)
