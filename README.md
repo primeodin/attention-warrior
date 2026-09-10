@@ -49,6 +49,8 @@ Why `/ √d` before softmax? [`examples/scale-factor-walkthrough.md`](examples/s
 
 Why subtract `max` inside softmax? [`docs/softmax-stability.md`](docs/softmax-stability.md) — same weights, numbers that don't overflow.
 
+Why aren't values the same as keys? [`docs/why-values.md`](docs/why-values.md) — same weights, different shelf (lookup ≠ payload).
+
 Prefer a one-screen map before the arithmetic? See [`docs/attention-diagram.md`](docs/attention-diagram.md) (ASCII + mermaid of query → keys → softmax → values).
 
 Full smoke (run + unit tests):
@@ -68,6 +70,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the local loop. Scoped tickets live i
 - [#7](https://github.com/primeodin/attention-warrior/issues/7) — `--attend` CLI demo (readable Q/K/V weights table)
 
 **Shipped:**
+- [`docs/why-values.md`](docs/why-values.md) — keys find; values deliver (lookup ≠ payload)
 - [`docs/softmax-stability.md`](docs/softmax-stability.md) (was #6) — why subtract max before exp
 - [`examples/scale-factor-walkthrough.md`](examples/scale-factor-walkthrough.md) (was #4)
 - [`docs/attention-diagram.md`](docs/attention-diagram.md) (was #3)
